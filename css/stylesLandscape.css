@@ -14,6 +14,11 @@ label {
     font-size: 1.5vw;
 }
 
+input {
+    width: 2vw;
+    height: 2vw;
+}
+
 textarea {
     height: 90%;
     width: 40%;
