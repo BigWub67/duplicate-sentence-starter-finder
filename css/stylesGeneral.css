@@ -55,8 +55,8 @@ label {
 }
 
 input {
-    width: 1%;
-    height: 1%;
+    width: 2vw;
+    height: 2vw;
 }
 
 textarea {
