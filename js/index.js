@@ -95,5 +95,5 @@ function pickHighlightColor(level) {
     }
     return "#00F";
    }
-   return "rgb("+level+","+(63-level/4)+",0)";
+   return "rgb("+level+","+(127-level/4)+",0)";
 }

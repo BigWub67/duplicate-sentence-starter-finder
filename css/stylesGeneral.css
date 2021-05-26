@@ -57,14 +57,14 @@ label {
 textarea {
     position: relative;
     margin: 1vw;
-    background-color: #222;
+    background-color: #444;
     text-align: left;
     resize: none;
     border: white .1vw solid;
 }
 
 textarea:hover {
-    background-color: #333;
+    background-color: #555;
     transition: all .25s;
 }
 
@@ -73,7 +73,7 @@ pre {
     position: relative;
     vertical-align: top;
     margin: 1vw;
-    background-color: #222;
+    background-color: #444;
     text-align: left;
     resize: none;
     border: white .1vw solid;
