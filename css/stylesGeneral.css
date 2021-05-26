@@ -92,8 +92,6 @@ select {
     border: .1vw white solid;
     width: 10%;
     height: 50%;
-    -webkit-appearance: none;
-    -moz-appearance: none;
 }
 
 select:hover {
