@@ -1,0 +1,33 @@
+header {
+    height: 4vw;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+footer {
+    margin: 8vw 0;
+}
+
+button {
+    font-size: 2.5vw;
+}
+
+label {
+    font-size: 2.5vw;
+}
+
+textarea {
+    height: 40%;
+    width: 90%;
+}
+
+pre {
+    height: 40%;
+    width: 90%;
+}
+
+select {
+    font-size: 2.5vw;
+}

@@ -6,30 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Created by: Anthony Anfilofieff">
     <title>Duplicate Sentence Starter Finder</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" media="all" href="css/stylesGeneral.css">
+    <link rel="stylesheet" media="all and (orientation:landscape)" href="css/stylesLandscape.css">
+    <link rel="stylesheet" media="all and (orientation:portrait)" href="css/stylesPortrait.css">
 </head>
 <body>
     <header>
         <h1>Duplicate Sentence Starter Finder</h1>
     </header>
     <section id="textDiv">
-        <textarea id="essayArea" value="Enter Text Here" autofocus></textarea>
+        <textarea id="essayArea" placeholder="Enter Text Here" autofocus></textarea>
         <pre id="duplicateEssayArea"></pre>
+        <footer>
+            <button type="Button" id="detectButton">Search for Duplicates</button>
+            <input type="checkbox" id="transparentToggle" checked>
+            <label for="transparentToggle">Let Single Appearance Be Transparent</label>
+            <br>
+            <select id="colorScalingDropDown">
+                <option value="32">x32</option>
+                <option value="16" selected>x16</option>
+                <option value="8">x8</option>
+                <option value="4">x4</option>
+                <option value="2">x2</option>
+                <option value="1">x1</option>
+            </select>
+            <label for="colorScalingDropDown">Duplicate Color Scaling</label>
+        </footer>
     </section>
-    <footer>
-        <button type="Button" id="detectButton">Search for Duplicates</button>
-        <input type="checkbox" id="transparentToggle" checked>
-        <label for="transparentToggle">Let Single Appearance Be Transparent</label>
-        <select id="colorScalingDropDown">
-            <option value="32">x32</option>
-            <option value="16" selected>x16</option>
-            <option value="8">x8</option>
-            <option value="4">x4</option>
-            <option value="2">x2</option>
-            <option value="1">x1</option>
-        </select>
-        <label for="colorScalingDropDown">Duplicate Color Scaling</label>
-    </footer>
     <script src="js/index.js"></script>
 </body>
 </html>
