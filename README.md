@@ -3,3 +3,6 @@
 The project is meant to assist writers in finding duplicate sentence starters. 
 This is so they can eliminate them to create less repetitive writing.
 It was originally created to learn more about strings and regular expressions in javascript.
+
+### Link
+https://bigwub67.github.io/duplicate-sentence-starter-finder/
