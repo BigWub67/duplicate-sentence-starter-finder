@@ -81,7 +81,7 @@ function splitByFirstWord(essay, firstWord, level) {
         essay = essay.replace(firstWord, "<mark style=\"background-color:"+color+"\">"+firstWord+"</mark>");
     }
     // replaces all times firstWord is the very first word of a sentence
-    let reg = new RegExp("\\b(?<=\\.\\s+|\\?\\s+|\\!\\s+|\\n\\s+)"+escapeRegExp(firstWord)+"\\b", "g");
+    let reg = new RegExp("\\b(?<=\\.\\s+|\\?\\s+|\\!\\s+|\\n\\s+|\\n)"+escapeRegExp(firstWord)+"\\b", "g");
     essay = essay.replace(reg, "<mark style=\"background-color:"+color+"\">"+firstWord+"</mark>");
     return essay;
 }
